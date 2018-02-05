@@ -1,0 +1,23 @@
+.md-title-center{
+    display:flex
+}
+.md-navbar-backgc{
+    background-color: #4a4545 !important;
+}
+.md-title-icon{
+    font-size: 0.4rem !important;
+}
+.md-title-icon-right{
+    color: #20B2AA;
+}
+.md-title-icon-left{
+    color: white;
+}
+.md-title-center-left{
+    color:#20B2AA;
+    margin-right: .1rem;
+}
+.md-title-center-right{
+    color:white;
+    margin-right: .1rem;
+}
