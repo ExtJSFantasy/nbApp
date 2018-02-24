@@ -21,7 +21,7 @@
                 <router-link to="#" slot="center">
                     <div class="md-title-center">
                         <span class="md-title-center-left" @click="onClickLogin">登陆</span>
-                        <p class="md-title-center-right">后只能专项练习</p>
+                        <p class="md-title-center-right">后智能专项练习</p>
                     </div>
                 </router-link>
                 <router-link to="#" slot="right">
@@ -29,16 +29,18 @@
                 </router-link>
             </yd-navbar>
             <yd-accordion>
-                <yd-accordion-item title="李白《月下独酌》" open>
-                    <div style="padding: .24rem;">
-                        <p>花间一壶酒，独酌无相亲。</p>
-                        <p>举杯邀明月，对影成三人。</p>
-                        <p>月既不解饮，影徒随我身。</p>
-                        <p>暂伴月将影，行乐须及春。</p>
-                        <p>我歌月徘徊，我舞影零乱。</p>
-                        <p>醒时同交欢，醉后各分散。</p>
-                        <p>永结无情游，相期邈云汉。</p>
-                    </div>
+                <yd-accordion-item title="编程语言" open>
+                    <yd-timeline>
+                        <yd-timeline-item>
+                           <div style="display:flex"><p style="flex:1">C/C++</p><P style="flex: 1;text-align: right;">2389题</P></div>
+                        </yd-timeline-item>
+                        <yd-timeline-item>
+                            <div style="display:flex"><p style="flex:1">Java</p><P style="flex: 1;text-align: right;">2389题</P></div>
+                        </yd-timeline-item>
+                        <yd-timeline-item>
+                            <div style="display:flex"><p style="flex:1">Javascript</p><P style="flex: 1;text-align: right;">2389题</P></div>
+                        </yd-timeline-item>
+                    </yd-timeline>
                 </yd-accordion-item>
                 <yd-accordion-item title="杜甫《望岳》">
                     <div style="padding: .24rem;">
